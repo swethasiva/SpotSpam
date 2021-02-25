@@ -9,8 +9,8 @@ In this notebook, I have fine-tuned and trained 5 classification models to ident
 *   Model 4 : Neural Network in Tensorflow and Keras
 *   Model 5 : Support Vector Machine
 
-Summary of results are as follows: 
-![alt text]()
+Summary of results:  
+![Result Table](./models_result_summary.png)
 
 # Conclusion: 
 From the results summary, we can understand that the best models are Neural Network and Random Forest Classifier. But since, the neural network has been trained for 100 epochs and the data size is just 4600 emails, there are chances of over fitting. We can also see that despite the lesser accuracy of random forest, the overall error rate of Random Forest Classifier is very close to the Neural Network.
