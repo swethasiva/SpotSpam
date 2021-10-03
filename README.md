@@ -9,6 +9,19 @@ In this notebook, I have fine-tuned and trained 5 classification models to ident
 *   Model 4 : Neural Network in Tensorflow and Keras
 *   Model 5 : Support Vector Machine
 
+# Feature Selection
+The redundant features are identified and dropped using Correlation test. The important features are selected using Chi-Square test.
+
+# Optimizing Model Performance 
+For optimizing the performance of each model, the hyperparameters are selected using the following two Hyperparameter tuning methods:
+* Grid Search
+* Randomized Search
+
+
+# K-Fold Cross Validation
+Used K-Fold Cross Validation to estimate the performance of the models on unseen data and to ensure lesser bias of the models.
+
+
 Summary of results:  
 ![Result Table](./models_result_summary.png)
 
